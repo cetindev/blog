@@ -106,3 +106,26 @@ blockquote {
   margin: 0 auto 50px auto;
   text-align: left;
 }
+ion-icon {
+  color: black;
+  font-size: 64px;
+}
+.share  ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.share ul li {
+  padding-left: 20px;
+}
+.share-title {
+  display: flex;
+  justify-content: center;
+}
+.container-contact {
+  padding: 0px 0px;
+}
+
+.tribute {
+  text-decoration: none;
+}
