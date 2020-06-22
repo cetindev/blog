@@ -22,8 +22,9 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 0;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 460px) {
@@ -71,14 +72,23 @@ img {
   // border: 5px solid red;
   // shape-rendering: 2px 2px;
 }
-
+#title:hover {
+  color: wheat;
+}
+li:hover {
+  color: wheat;
+}
 #figure#img-div {
   background: white;
   padding: 10px;
   margin: 0;
-  text-align: center;
 }
+#img {
+  display: block;
+  justify-content: center;
+  border: 1px solid black ;
 
+}
 #img-caption {
   margin: 15px 0 5px 0;
 }
