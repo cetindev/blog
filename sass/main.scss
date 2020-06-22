@@ -60,10 +60,14 @@ img {
   // shape-rendering: 2px 2px;
 }
 #title:hover {
-  color: wheat;
+  color: dimgray;
+} 
+section li:hover {
+  background-color: rgb(141, 141, 34);
+  border-radius: 5px;
 }
-li:hover {
-  color: wheat;
+.share ul li:hover {
+  opacity: 0.5;
 }
 #figure#img-div {
   background: white;

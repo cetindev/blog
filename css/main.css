@@ -56,10 +56,14 @@ img {
   margin: 0 auto; }
 
 #title:hover {
-  color: wheat; }
+  color: dimgray; }
 
-li:hover {
-  color: wheat; }
+section li:hover {
+  background-color: #8d8d22;
+  border-radius: 5px; }
+
+.share ul li:hover {
+  opacity: 0.5; }
 
 #figure#img-div {
   background: white;
