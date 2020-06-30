@@ -32,6 +32,7 @@ h2 {
 }
 a {
   color: #477ca7;
+  transition: 3ooms all;
 }
 a:visited {
   color: #74638f;
@@ -68,7 +69,6 @@ section li:hover {
   border-radius: 5px;
 }
 .share ul li:hover {
-  transition: 3ooms all;
   opacity: 0.5;
 }
 #figure#img-div {
