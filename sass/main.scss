@@ -71,9 +71,12 @@ img {
 section li:hover {
   background-color: rgb(141, 141, 34);
   border-radius: 5px;
+  transition: 400ms all;
 }
 .share ul li:hover {
-  opacity: 0.5;
+  opacity: 0.6;
+  transition: 600ms all;
+
 }
 #figure#img-div {
   background: white;
@@ -123,6 +126,10 @@ ion-icon {
 }
 .share ul li {
   padding-left: 20px;
+}
+.share ul li a{
+    transition: 300ms all;
+    color: green;
 }
 .share-title {
   display: flex;
